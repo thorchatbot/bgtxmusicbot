@@ -35,13 +35,7 @@ chat_id = None
 useer = "NaN"
 
 themes = [
-    "bgreen",
-    "blue",
-    "colorfull",
-    "dgreen",
-    "hgreen",
-    "lgreen",
-    "lyellow",
+    "green",
     "orange",
     "pink",
     "purple",
