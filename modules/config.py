@@ -19,6 +19,7 @@ BOT_IMAGE = getenv("BOT_IMAGE", "https://te.legra.ph/file/99d0261f0aa5512ad6753.
 BOT_NAME = getenv("BOT_NAME", "XXXXX")
 BOT_TOKEN = getenv("BOT_TOKEN", "12345:XXXXX")
 BOT_USERNAME = getenv("BOT_USERNAME", "XXXXX")
+MONGODB_URL = getenv("MONGODB_URL", "XXXXX")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "300"))
 OWNER_NAME = getenv("OWNER_NAME", "𝐁𝐢𝐤𝐚𝐬𝐡 𝐇𝐚𝐥𝐝𝐞𝐫")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "BikashHalder")
