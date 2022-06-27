@@ -13,7 +13,7 @@ bot = Bot(
     plugins=dict(root="plugins")
 )
 
-with Client(":bgt:", API_ID, API_HASH, bot_token=BOT_TOKEN) as app:
+with Bot(":bgt:", API_ID, API_HASH, bot_token=BOT_TOKEN) as app:
     me_bot = app.get_me()
 with client as app:
     me_user = app.get_me()
