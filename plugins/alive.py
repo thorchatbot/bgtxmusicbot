@@ -44,8 +44,8 @@ async def start_(client: Client, message: Message):
 ┣❥︎ 𝐁𝐨𝐭-𝐒𝐨𝐮𝐫𝐜𝐞 » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞]({SOURCE_CODE})
 ┣❥︎ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ➪ » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞]({UPDATES_CHANNEL})
 ┣❥︎ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 ➪ » [𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞]({SUPPORT_GROUP})
-┣❥︎ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 ➪ » [𝐊𝐚𝐚𝐥](https://t.me/Adityahalder)
-┣❥︎ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫2 ➪ » [𝐁𝐢𝐤𝐚𝐬𝐡](https://t.me/BikashHalder)
+┣❥︎ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 ➪ » [𝐊𝐚𝐚𝐥](https://t.me/pokemonmaster856)
+┣❥︎ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫2 ➪ » [𝐁𝐢𝐤𝐚𝐬𝐡](https://t.me/Violence_Dont)
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 𝐉𝐮𝐬𝐭 𝐀𝐝𝐝 𝐌𝐞 » 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝
@@ -63,7 +63,7 @@ async def start_(client: Client, message: Message):
     )
     
     
-@Client.on_message(commandpro(["/start", f"start@{BOT_USERNAME}", "/alive", ".alive", "#bikash", "#aditya"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/start", f"start@{BOT_USERNAME}", "/alive", ".alive", "#Pokemon", "#invisible"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{BOT_IMAGE}",
@@ -79,7 +79,7 @@ async def start(client: Client, message: Message):
     )
 
 
-@Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "bikash", "source"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "Pokemon", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/99d0261f0aa5512ad6753.jpg",
